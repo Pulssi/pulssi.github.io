@@ -1,0 +1,199 @@
+html {
+	font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width: 576px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 992px) {
+	html {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 1200px) {
+	html {
+		font-size: 20px;
+	}
+}
+
+main {
+	background: #485564;
+	color: #FAFAFA;
+}
+
+nav {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    /* Fallback for web browsers that don't support RGBa */
+    background-color: rgb(30, 30, 30);
+    background-color: rgba(30, 30, 30, 0.6);
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #FAFAFA;
+}
+
+a.nav-link {
+    display: inline-block;
+    font-size: 1em;
+    padding: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.active {
+    color: #F06000;
+}
+
+a.card-link {
+    display: block;
+    color: #485564;
+    font-weight: bold;
+    margin-top: 15%;
+}
+
+a.email {
+    text-decoration: underline;
+}
+
+a:hover, i:hover {
+    color: #F06000;
+}
+
+.column-left {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    text-align: right;
+}
+
+.column-right {
+    float: right;
+    width: 50%;
+    padding: 10px;
+    padding-right: 25%;
+    border-left: solid;
+    text-align: left;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.profile-pic{
+   width: 220px;
+   height: 220px;
+   border-radius: 100%;
+}
+
+.icon-nav {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    justify-content: center;
+    font-size: 5em;
+    
+}
+
+.icons-social a {
+	color: #FAFAFA;
+}
+
+.icons-social a svg path{
+	fill: #FAFAFA;
+}
+
+.icons-social i {
+	font-size: 3em;
+}
+
+.card {
+    /* Fallback for web browsers that don't support RGBa */
+    box-shadow: 0 8px 16px rgb(0,0,0);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    border-radius: 5px;
+    background-color: #FAFAFA;
+    color: #485564;
+    float: left;
+    margin: 10px;
+}
+
+.card:hover {
+    /* Fallback for web browsers that don't support RGBa */
+    box-shadow: 0 8px 16px rgb(0,0,0);
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 5%;
+}
+
+
+.view {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: center;
+	padding: 0 30px;
+	text-align: center;
+}
+
+.view-about {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: center;
+	padding: 0 30px;
+}
+
+.title {
+	font-family: 'Reem Kufi', sans-serif;
+	font-size: 3.75em;
+	font-weight: 600;
+    text-align: center;
+}
+
+.tag {
+	font-size: 1.5rem;
+	margin: 1.5rem 0;
+	font-weight: 100;
+}
+
+.icons-social i {
+	padding: 10px;
+}
+
+.devto {
+	margin-bottom: -0.20rem;
+}
+
+.devto svg {
+	margin-bottom: -0.20rem;
+	margin-left: 0.675rem;;
+	width: 2.65rem;
+	height: 2.65rem;
+}
