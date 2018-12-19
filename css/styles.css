@@ -51,7 +51,7 @@ a {
     color: #FAFAFA;
 }
 
-a.nav-link {
+.nav-link {
     display: inline-block;
     font-size: 1em;
     padding: 15px;
@@ -64,14 +64,14 @@ a.nav-link {
     color: #F06000;
 }
 
-a.card-link {
+.card-link {
     display: block;
     color: #485564;
     font-weight: bold;
     margin-top: 15%;
 }
 
-a.email {
+.email {
     text-decoration: underline;
 }
 
@@ -92,6 +92,7 @@ a:hover, i:hover {
     padding: 10px;
     padding-right: 25%;
     border-left: solid;
+    border-color: #F06000;
     text-align: left;
 }
 
@@ -106,10 +107,10 @@ a:hover, i:hover {
     clear: both;
 }
 
-.profile-pic{
-   width: 220px;
-   height: 220px;
-   border-radius: 100%;
+.profile-pic {
+    width: 220px;
+    height: 220px;
+    border-radius: 100%;
 }
 
 .icon-nav {
@@ -140,6 +141,8 @@ a:hover, i:hover {
     transition: 0.3s;
     width: 20%;
     border-radius: 5px;
+    border-style: solid;
+    border-color: #F06000;
     background-color: #FAFAFA;
     color: #485564;
     float: left;
@@ -155,7 +158,6 @@ a:hover, i:hover {
 .container {
     padding: 5%;
 }
-
 
 .view {
 	display: flex;
