@@ -107,24 +107,28 @@ a:hover, i:hover {
     clear: both;
 }
 
-@media all and (max-width: 800px)
-{
-    .column.left, .column-right {
-        float: none; 
-        width: 100%;
-        border-left: none;
-        padding-right: 0;
-    }
-    .row {
-        display: block;
-    }
-}
-
-
 .profile-pic {
     width: 250px;
     height: 250px;
     border-radius: 100%;
+}
+
+@media all and (max-width: 800px)
+{
+    .column-left, .column-right {
+        float: none; 
+        width: 100%;
+        border-left: none;
+        padding-right: 0;
+        text-align: center;
+    }
+    .row {
+        display: block;
+    }
+    .profile-pic {
+        width: 200px;
+        height: 200px;
+    }
 }
 
 .icon-nav {
