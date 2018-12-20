@@ -135,11 +135,11 @@ a:hover, i:hover {
 }
 
 .card {
+    width: 350px;
     /* Fallback for web browsers that don't support RGBa */
     box-shadow: 0 8px 16px rgb(0,0,0);
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 20%;
     border-radius: 5px;
     border-style: solid;
     border-color: #F06000;
