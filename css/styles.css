@@ -107,9 +107,23 @@ a:hover, i:hover {
     clear: both;
 }
 
+@media all and (max-width: 800px)
+{
+    .column.left, .column-right {
+        float: none; 
+        width: 100%;
+        border-left: none;
+        padding-right: 0;
+    }
+    .row {
+        display: block;
+    }
+}
+
+
 .profile-pic {
-    width: 220px;
-    height: 220px;
+    width: 250px;
+    height: 250px;
     border-radius: 100%;
 }
 
@@ -118,7 +132,6 @@ a:hover, i:hover {
     position: absolute;
     left: 50%;
     bottom: 0px;
-    justify-content: center;
     font-size: 5em;
 }
 
@@ -135,7 +148,6 @@ a:hover, i:hover {
 }
 
 .card {
-    width: 350px;
     /* Fallback for web browsers that don't support RGBa */
     box-shadow: 0 8px 16px rgb(0,0,0);
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
