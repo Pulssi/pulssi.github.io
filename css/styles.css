@@ -131,12 +131,17 @@ a:hover, i:hover {
     }
 }
 
-.icon-nav {
-    display: block;
-    position: absolute;
-    left: 50%;
+.icon-nav i {
+    position: sticky;
     bottom: 0px;
     font-size: 5em;
+    
+}
+
+.row-icon-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .icons-social a {
