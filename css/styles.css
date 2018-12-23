@@ -90,17 +90,6 @@ a:hover, i:hover {
     text-align: left;
 }
 
-.row {
-    display: flex;
-    justify-content: center;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 .profile-pic {
     width: 250px;
     height: 250px;
@@ -116,26 +105,22 @@ a:hover, i:hover {
         padding-right: 0;
         text-align: center;
     }
-    .row {
-        display: block;
-    }
     .profile-pic {
         width: 200px;
         height: 200px;
     }
 }
 
-.icon-nav i {
-    position: sticky;
-    bottom: 0px;
-    font-size: 5em;
-    
-}
-
-.row-icon-nav {
+.icons-nav {
     display: flex;
     justify-content: center;
+    position: absolute;
+    bottom: 0;
     width: 100%;
+}
+
+.icons-nav i {
+    font-size: 5em;
 }
 
 .icons-social a {
@@ -172,6 +157,8 @@ a:hover, i:hover {
     width: 300px;
     position: relative;
     padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
 }
 
 .card:hover {
@@ -180,24 +167,11 @@ a:hover, i:hover {
     box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
 }
 
-.card-link-repo {
+.card-link {
     position: absolute;
-    display: block;
     color: #485564;
     font-weight: bold;
     bottom: 10px;
-    left: 10px;
-    text-transform: uppercase;
-    text-decoration: underline;
-}
-
-.card-link-image {
-    position: absolute;
-    display: block;
-    color: #485564;
-    font-weight: bold;
-    bottom: 10px;
-    right: 10px;
     text-transform: uppercase;
     text-decoration: underline;
 }
