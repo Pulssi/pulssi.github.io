@@ -23,7 +23,7 @@ $(window).scroll(function() {
 		var scrollDistance = $(window).scrollTop();
 
 		// Show/hide menu on scroll
-		if (scrollDistance >= 600) {
+		if (scrollDistance >= 400) {
                 $('nav').addClass('nav-visible');
 				$('nav').fadeIn("fast");
                 $('.icon-nav').fadeOut("fast");

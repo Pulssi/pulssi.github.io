@@ -33,6 +33,7 @@ main {
 
 nav {
     position: fixed;
+    z-index: 999;
     top: 0px;
     width: 100%;
     /* Fallback for web browsers that don't support RGBa */
@@ -62,13 +63,6 @@ a {
 
 .active {
     color: #F06000;
-}
-
-.card-link {
-    display: block;
-    color: #485564;
-    font-weight: bold;
-    margin-top: 15%;
 }
 
 .email {
@@ -156,6 +150,13 @@ a:hover, i:hover {
 	font-size: 3em;
 }
 
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .card {
     /* Fallback for web browsers that don't support RGBa */
     box-shadow: 0 8px 16px rgb(0,0,0);
@@ -168,6 +169,9 @@ a:hover, i:hover {
     color: #485564;
     float: left;
     margin: 10px;
+    width: 300px;
+    position: relative;
+    padding-bottom: 40px;
 }
 
 .card:hover {
@@ -176,7 +180,29 @@ a:hover, i:hover {
     box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
 }
 
-.container {
+.card-link-repo {
+    position: absolute;
+    display: block;
+    color: #485564;
+    font-weight: bold;
+    bottom: 10px;
+    left: 10px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.card-link-image {
+    position: absolute;
+    display: block;
+    color: #485564;
+    font-weight: bold;
+    bottom: 10px;
+    right: 10px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.card-text {
     padding: 5%;
 }
 
