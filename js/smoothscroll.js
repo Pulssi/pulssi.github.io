@@ -26,10 +26,10 @@ $(window).scroll(function() {
 		if (scrollDistance >= 400) {
                 $('nav').addClass('nav-visible');
 				$('nav').fadeIn("fast");
-                $('.icon-nav').fadeOut("fast");
+                $('.icons-nav').fadeOut("fast");
 		} else {
 				$('nav').fadeOut("fast");
-                $('.icon-nav').fadeIn("fast");
+                $('.icons-nav').fadeIn("fast");
 		}
 	
 		// Assign active class to nav links while scrolling
